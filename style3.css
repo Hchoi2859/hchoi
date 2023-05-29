@@ -1,0 +1,69 @@
+
+*{
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+nav li a {
+  color: lightgreen;
+}
+
+.logo {
+  width:140px;
+  max-height: 40%;
+}
+
+
+.title {
+  text-align: center;
+}
+
+.description > p > span {
+  font-weight: bold;
+}
+
+
+.flex-container {
+  background: beige;
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  padding: 100px 100px 100px 100px;
+  justify-content: center;
+  border: 1px solid lightgreen;
+  
+}
+.flex-container > .item {
+  width: 50%;
+}
+
+.item > div > img{
+width: 100%;
+border: 1px solid lightgreen;
+
+}
+
+.flex-container > .item-align  {
+  width: 50%;
+}
+
+.item-align > div > img {
+width: 100%;
+border: 1px solid lightgreen;
+}
+
+.item, .item-align {
+  
+  margin:0 auto;
+}
+
+.item img, .item-align img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+.item:hover img, .item-align:hover img {
+  transform: scale(1.3);
+}
+

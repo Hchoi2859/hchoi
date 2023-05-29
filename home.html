@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HChoi's Channel</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/47d9288a7a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav id="nav-bar">
+          <img src="logo.jpg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">My Role</a></li>
+            <li><a href="#portfolio">My work</a></li>
+            <li><a href="#contact">contact</a></li>
+            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          
+        </nav>
+
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hello, I'm <span>Hyunwoong Choi</span><br />
+            from South Korea
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!--------------------------about ---------->
+    <div id="about">
+      <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/photo.png" alt="myPic" />
+            </div>
+            <div class="about-col-2">
+              <h2 class="sub-title">About me</h2>
+              <p>
+                As a recent undergraduate student, I am enthusiastic about
+                exploring <br />a variety of experiences and gaining knowledge.
+              </p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('experience')">
+                  Experiences
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+                <p class="tab-links" onclick="opentab('details')">
+                  Details
+                </p>
+              </div>
+
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Front-end developer</span><br />HTML/CSS/JS</li>
+                  <li><span>SoftWare Engineer</span><br />Python</li>
+            
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li>
+                    <span>03/2020 - 05/2020</span><br />Internship from KPMG
+                    (Korea)
+                  </li>
+                  <li>
+                    <span>05/2020 - 11/2021</span><br />Republic of Korea Army
+                  </li>
+                  <li>
+                    <span>01/2023 - 05/2023</span><br />Real-Life-Project with
+                    FedWriters
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>2016</span><br />
+                    High-school diploma from Holy Cross Regional Catholic School
+                  </li>
+                  <li>
+                    <span>2016-2023</span><br />B.S from George Mason University
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="details">
+                <ul>
+                 <li>
+                  <p>* I’m an international student who are seeking IT Business position such as software engineer, web developer, or Database manager <br>as I learned some basic programming through classes I have taken such as python, HTML, CSS, and SQL. <br> * I’m willing to learn any position if I have to learn before I get into the jobs and would be appreciated <br>if I can get some training assistance since I’m pretty sure that it will not be familiar with me at first. <br>* I’m willing to dedicate myself to learn new knowledge and contribute to the company I will work for. </p>
+                 </li>
+                </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--------------------services---------------------------------------------------------->
+        <div id="services">
+          <div class="container">
+            <h1 class="sub-title">My Role</h1>
+            <div class="services-list">
+            
+            <div>
+              <i class="fa-brands fa-codepen"></i>
+              <h2>Web Development</h2>
+              <p></p>
+              <a href="#"></a>
+            </div>
+            <div>
+              <i class="fa-brands fa-python"></i>
+              <h2>
+                Programming
+              </h2>
+              <p></p>
+              <a href="#"></a>
+            </div>
+            <div>
+              <i class="fa-light fa-table"></i>
+              <h2>Data Analytics</h2>
+              <p></p>
+              <a href="#"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!----------------portfolio----------------->
+        <div id="portfolio">
+          <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+              <div class="work">
+                <img src="images/image2.jpg" />
+                <div class="layer">
+                  <h3>Project 1 (python)</h3>
+                  <p></p>
+                  <a href="python.html"><i class="fa-sharp fa-solid fa-link"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="images/image3.jpg" />
+                <div class="layer">
+                  <h3>Project 2 (HTML/CSS/JS)</h3>
+                  <p></p>
+                  <a href="htmlcssjs.html"><i class="fa-sharp fa-solid fa-link"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="python image/11.jpg" />
+                <div class="layer">
+                  <h3>Project 3 (Real-life-project)</h3>
+                  <p></p>
+                  <a href="reallife.html"><i class="fa-sharp fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+      <!-- ------------contact -------------->
+      <div id="contact">
+        <div class="container">
+          <div class="row1">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-regular fa-envelope"></i>dkk22555@gmail.com</p>
+              <p><i class="fa-regular fa-phone"></i>571-567-9811</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/hyunwoong-choi-6a90b7172/"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Your Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="Your Email"
+                  required
+                />
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="Your Message"
+                ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+            
+          </div>
+          <a href="images/Resume.doc" download class="btn btn2"
+          >Download Resume</a
+        >
+        </div>
+        <div class="copyright">
+          <p>Copyright <i class="fa-solid fa-copyright"></i> Hyunwoong Choi</p>
+        </div>
+      </div>
+    </div>
+
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+          for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+          }
+          for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+      
+      <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+        
+        function openmenu() {
+          sidemeu.style.right = "0";
+        }
+        function cloasemenu() {
+          sidemeu.style.right = "-200px";
+        }
+
+      </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbz1Tgg5MI5kmjHX7z1pkRAxvLd_4SP7jmVM0b95ppZL03MozVIJnVJA5KcEb0W9Y72ARw/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+              msg.innerHTML = "Message successfully sent!"
+              setTimeout(function(){
+                msg.innerHTML = ""
+              }, 5000)
+              form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
